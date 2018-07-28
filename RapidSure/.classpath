@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/hamcrest-core-1.4-atlassian-1.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/jchronic-0.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/extent reports/cucumber-extentsreport-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/extent reports/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/cucumber/extent reports/freemarker-2.3.25-incubating.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/javax.mail-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/selenium-htmlunit-driver-2.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/POI APIs/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/POI APIs/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/POI APIs/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/POI APIs/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/lnjena/software/jars/POI APIs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
