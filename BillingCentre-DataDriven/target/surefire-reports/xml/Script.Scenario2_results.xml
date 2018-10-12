@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BillingCentreTest"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="104.170">
+  <properties />
+  
+  
+            <testcase name="BillingCent" time="9.158" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="7.954" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="9.141" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="9.112" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="8.893" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="9.279" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="9.050" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="8.030" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="9.966" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="7.898" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="7.864" classname="Script.Scenario2" />
+                <testcase name="BillingCent" time="7.825" classname="Script.Scenario2" />
+      
+</testsuite>

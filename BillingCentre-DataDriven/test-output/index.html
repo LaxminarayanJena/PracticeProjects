@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BillingCentre">
+              <span class="suite-name border-passed">BillingCentre</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BillingCentre">
+                    <span>C:\lnjena\selenium\BC\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BillingCentre">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BillingCentre">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BillingCentre">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BillingCentre">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BillingCentre">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BillingCentre">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BillingCentre" class="hide-methods passed suite-BillingCentre"> (hide)</a> <!-- hide-methods passed suite-BillingCentre -->
+                      <a href="#" panel-name="suite-BillingCentre" class="show-methods passed suite-BillingCentre"> (show)</a> <!-- show-methods passed suite-BillingCentre -->
+                    </span>
+                    <div class="method-list-content passed suite-BillingCentre">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Am...)">BillingCent({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Am...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  A...)">BillingCent({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, ...)">BillingCent({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861...)">BillingCent({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860...)">BillingCent({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=P...)">BillingCent({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=8...)">BillingCent({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Am...)">BillingCent({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Am...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  A...)">BillingCent({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Am...)">BillingCent({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Am...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, ...)">BillingCent({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.Scenario2" hash-for-method="BillingCent({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  A...)">BillingCent({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BillingCentre -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BillingCentre" class="panel BillingCentre">
+          <div class="suite-BillingCentre-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Script.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Am...)">
+                  </a> <!-- BillingCent({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Am...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Amount=32139.0, Policy Number=PHPK1869855, APPS_Tax=0.0, Package=Package5, Product=Homeowner Assn. Pkg - PU, Status=Pass, City=Gardner, APPS_Policy_Number=PHPK1869855, State=KS, APPS_Annual Amount=32139.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  A...)">
+                  </a> <!-- BillingCent({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  A...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  Amount=286617.0, Policy Number=PHPK1869853, APPS_Tax=0.0, Package=Package3, Product=Condominium Pkg. - CO, Status=Pass, City=Torrance, APPS_Policy_Number=PHPK1869853, State=CA, APPS_Annual Amount=286617.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, ...)">
+                  </a> <!-- BillingCent({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, ...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, Policy Number=PHPK1869864, APPS_Tax=3549.11, Package=Package12, Product=Fuel Dealers - FR, Status=Pass, City=Garden Grove, APPS_Policy_Number=PHPK1869864, State=CA, APPS_Annual Amount=312604.11})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861...)">
+                  </a> <!-- BillingCent({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861, APPS_Tax=0.0, Package=Package10, Product=Day Care Pkg - DY, Status=Pass, City=Moosic, APPS_Policy_Number=PHPK1869861, State=PA, APPS_Annual Amount=120388.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860...)">
+                  </a> <!-- BillingCent({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860, APPS_Tax=0.0, Package=Package9, Product=Temporary Staffing Agency Package - TS, Status=Pass, City=San Francisco, APPS_Policy_Number=PHPK1869860, State=CA, APPS_Annual Amount=208711.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=P...)">
+                  </a> <!-- BillingCent({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=P...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=PHPK1869859, APPS_Tax=0.0, Package=Package8, Product=Guides & Outfitters Pkg - GO, Status=Pass, City=Austin, APPS_Policy_Number=PHPK1869859, State=TX, APPS_Annual Amount=46429.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=8...)">
+                  </a> <!-- BillingCent({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=8...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=80343.0, APPS_Written  Amount=80343.0, Policy Number=PHPK1869854, APPS_Tax=0.0, Package=Package4, Product=Home Health Care Pkg - HC, Status=Pass, City=Melrose, APPS_Policy_Number=PHPK1869854, State=MA, APPS_Annual Amount=80343.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Am...)">
+                  </a> <!-- BillingCent({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Am...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Amount=87735.0, Policy Number=PHPK1869852, APPS_Tax=0.0, Package=Package2, Product=Health & Fitness Pkg - HF, Status=Pass, City=Melrose, APPS_Policy_Number=PHPK1869852, State=MA, APPS_Annual Amount=87735.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  A...)">
+                  </a> <!-- BillingCent({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  A...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  Amount=194174.0, Policy Number=PHPK1869871, APPS_Tax=0.0, Package=Package1, Product=Non Profit Package - NP, Status=Pass, City=Berkeley, APPS_Policy_Number=PHPK1869871, State=CA, APPS_Annual Amount=194174.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Am...)">
+                  </a> <!-- BillingCent({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Am...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Amount=31038.0, Policy Number=PHPK1869858, APPS_Tax=0.0, Package=Package7, Product=Homeowner Assn. Pkg - PU, Status=Pass, City=Gardner, APPS_Policy_Number=PHPK1869858, State=KS, APPS_Annual Amount=31038.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, ...)">
+                  </a> <!-- BillingCent({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, ...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, APPS_Tax=0.0, Package=Package11, Product=Day Care Pkg - DY, Status=Pass, City=DOYLESTOWN, APPS_Policy_Number=PHPK1869862, State=PA, APPS_Annual Amount=54000.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  A...)">
+                  </a> <!-- BillingCent({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  A...) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  Amount=175190.0, Policy Number=PHPK1869857, APPS_Tax=6.5, Package=Package6, Product=Religious Organization Package - RL, Status=Pass, City=Pompano Beach, APPS_Policy_Number=PHPK1869857, State=FL, APPS_Annual Amount=175196.5})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BillingCentre-class-passed -->
+        </div> <!-- panel BillingCentre -->
+        <div panel-name="test-xml-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\lnjena\selenium\BC\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BillingCentre&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Resources.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;BillingCentreTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Script.Scenario2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BillingCentreTest --&gt;
+&lt;/suite&gt; &lt;!-- BillingCentre --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BillingCentreTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BillingCentre');
+function tableData_BillingCentre() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'BillingCent')
+data.setCell(0, 2, 'Script.Scenario2')
+data.setCell(0, 3, 11576);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BillingCent')
+data.setCell(1, 2, 'Script.Scenario2')
+data.setCell(1, 3, 4897);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BillingCent')
+data.setCell(2, 2, 'Script.Scenario2')
+data.setCell(2, 3, 3354);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'BillingCent')
+data.setCell(3, 2, 'Script.Scenario2')
+data.setCell(3, 3, 3219);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BillingCent')
+data.setCell(4, 2, 'Script.Scenario2')
+data.setCell(4, 3, 3213);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'BillingCent')
+data.setCell(5, 2, 'Script.Scenario2')
+data.setCell(5, 3, 3192);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BillingCent')
+data.setCell(6, 2, 'Script.Scenario2')
+data.setCell(6, 3, 3174);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BillingCent')
+data.setCell(7, 2, 'Script.Scenario2')
+data.setCell(7, 3, 3169);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'BillingCent')
+data.setCell(8, 2, 'Script.Scenario2')
+data.setCell(8, 3, 3162);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'BillingCent')
+data.setCell(9, 2, 'Script.Scenario2')
+data.setCell(9, 3, 3151);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BillingCent')
+data.setCell(10, 2, 'Script.Scenario2')
+data.setCell(10, 3, 3069);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BillingCent')
+data.setCell(11, 2, 'Script.Scenario2')
+data.setCell(11, 3, 3045);
+window.suiteTableData['BillingCentre']= { tableData: data, tableDiv: 'times-div-BillingCentre'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-BillingCentre">
+              </div> <!-- times-div-BillingCentre -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Script.Scenario2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11967294,EN_11967721,CN_11968449,RI_0,RN_11969282, TotalPremium=194174.0, APPS_Written  A...)</span>
+                <span class="method-start">10767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964009,EN_11967705,CN_11968432,RI_0,RN_11969281, TotalPremium=87735.0, APPS_Written  Am...)</span>
+                <span class="method-start">15666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964052,EN_11967689,CN_11968419,RI_0,RN_11969279, TotalPremium=286617.0, APPS_Written  A...)</span>
+                <span class="method-start">18843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964101,EN_11967665,CN_11968407,RI_0,SplitRN1_11969312,SplitRN2_11969310, TotalPremium=8...)</span>
+                <span class="method-start">22016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964184,EN_11967648,CN_11968395,RI_0,RN_11969285, TotalPremium=32139.0, APPS_Written  Am...)</span>
+                <span class="method-start">25239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964385,EN_11967627,CN_11968383,RI_0,RN_11969288, TotalPremium=175196.5, APPS_Written  A...)</span>
+                <span class="method-start">28403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964613,EN_11967609,CN_11968369,RI_0,RN_11969286, TotalPremium=31038.0, APPS_Written  Am...)</span>
+                <span class="method-start">31474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964822,EN_11967592, TotalPremium=46429.0, APPS_Written  Amount=46429.0, Policy Number=P...)</span>
+                <span class="method-start">34671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964860, TotalPremium=208711.0, APPS_Written  Amount=208711.0, Policy Number=PHPK1869860...)</span>
+                <span class="method-start">38029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964885, TotalPremium=120388.0, APPS_Written  Amount=120388.0, Policy Number=PHPK1869861...)</span>
+                <span class="method-start">41182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964916, TotalPremium=54000.0, APPS_Written  Amount=54000.0, Policy Number=PHPK1869862, ...)</span>
+                <span class="method-start">44399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({PathID=NB_11964963,EN_11967578,RN_11969275, TotalPremium=312604.11, APPS_Written  Amount=309055.0, ...)</span>
+                <span class="method-start">55977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59064 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
