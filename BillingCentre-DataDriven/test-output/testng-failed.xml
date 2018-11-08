@@ -8,13 +8,13 @@
   </listeners>
   <test name="BillingCentreTest(failed)">
     <classes>
-      <class name="Script.Scenario2">
+      <class name="Script.BillingCentre">
         <methods>
-          <include name="BillingCent" invocation-numbers="3 4 5 6 7"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="BillingCent" invocation-numbers="10 21 37 50"/>
         </methods>
-      </class> <!-- Script.Scenario2 -->
+      </class> <!-- Script.BillingCentre -->
     </classes>
   </test> <!-- BillingCentreTest(failed) -->
 </suite> <!-- Failed suite [BillingCentre] -->

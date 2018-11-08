@@ -46,7 +46,7 @@ public class BaseTest {
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static WebDriverWait wait;
 	
-	
+	public static String currentdatasheet=null;
 	
 	@BeforeSuite
 	public void setUp(){
@@ -64,11 +64,12 @@ public class BaseTest {
 			}
 			try {
 				Config.load(fis);
-				String a=Config.getProperty("ResultDriver");
-				excel=new ExcelReader(a);
-				report=new ExcelReader(a);
-				
-				
+				currentdatasheet=Config.getProperty("ResultDriver");
+				excel=new ExcelReader(currentdatasheet);
+				report=new ExcelReader(currentdatasheet);
+					
+							
+			
 				log.debug("Config file loaded");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -89,6 +90,8 @@ public class BaseTest {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
+					
 			
 			
 			if(Config.getProperty("browser").equals("firefox")){

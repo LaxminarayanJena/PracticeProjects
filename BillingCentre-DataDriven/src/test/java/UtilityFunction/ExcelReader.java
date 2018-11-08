@@ -7,17 +7,22 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
 
+
+
+
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFColor;
+import org.apache.poi.hssf.util.HSSFColor;
+
+
+
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.hssf.util.CellReference;
-import org.apache.poi.hssf.util.HSSFColor;
-import org.apache.poi.sl.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.util.CellAddress;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFCreationHelper;
@@ -25,8 +30,6 @@ import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import com.gargoylesoftware.htmlunit.javascript.host.Iterator;
 /**
  * Created by ljena on 8/05/2018.
  */
@@ -138,6 +141,31 @@ public class ExcelReader {
 			return "row "+rowNum+" or column "+colName +" does not exist in xls";
 		}
 	}
+	
+	
+	public static String getFillColorHex(Cell cell) throws Exception { 
+		  String fillColorString = "none";
+		  if (cell != null) {
+		   CellStyle cellStyle = cell.getCellStyle();
+		   Color color =  cellStyle.getFillForegroundColorColor();
+		   if (color instanceof XSSFColor) {
+		    XSSFColor xssfColor = (XSSFColor)color;
+		    byte[] argb = xssfColor.getARGB();
+		    fillColorString = "[" + (argb[0]&0xFF) + ", " + (argb[1]&0xFF) + ", " + (argb[2]&0xFF) + ", " + (argb[3]&0xFF) + "]";
+		    if (xssfColor.hasTint()) {
+		     fillColorString += " * " + xssfColor.getTint();
+		     byte[] rgb = xssfColor.getRGBWithTint();
+		     fillColorString += " = [" + (argb[0]&0xFF) + ", " + (rgb[0]&0xFF) + ", " + (rgb[1]&0xFF) + ", " + (rgb[2]&0xFF) + "]" ;
+		    }
+		   } else if (color instanceof HSSFColor) {
+		    HSSFColor hssfColor = (HSSFColor)color;
+		    short[] rgb = hssfColor.getTriplet();
+		    fillColorString = "[" + rgb[0] + ", " + rgb[1] + ", "  + rgb[2] + "]";
+		   }
+		  }
+		  return fillColorString;
+		 }
+	
 	
 	
 	

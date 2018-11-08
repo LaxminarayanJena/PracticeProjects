@@ -27,6 +27,14 @@ public class TestUtil extends BaseTest {
 	HashMap<String, Integer> result = null;
 	
 	
+	/**
+     * FUNCTION NAME        : GetData
+     * DESCRIPTION          : Getting cellData
+     * INPUT PARAMETERS     : SheetName
+     * OUTPUT               : None
+     * AUTHOR               : Laxminarayan Jena
+     */
+	
 	@DataProvider
 	public static Object[][] getData(String sheetName){
 		
@@ -99,6 +107,7 @@ public static void Reporting(Hashtable<String,String> data ,String txt)
     
   //  String Actual_Written_Premium=getText("Actual_Written_Premium");
     String Actual_Written_Premium="19000";
+    System.out.println("Actual_Written_Premium value is " + Actual_Written_Premium);
 	result=excel.FindPosition(policyno, txt); 
 	
 	int colno=result.get("colno1");
@@ -128,7 +137,26 @@ public static void Reporting(Hashtable<String,String> data ,String txt)
 	report.setCellData(policyno, colno+1, lastrowno+2 ,Actual_Written_Premium);
 	report.setCellData(policyno, colno, lastrowno+3, "Billing Center Status");
 }
+
+/**
+ * FUNCTION NAME        : 2nd type Reporting
+ * DESCRIPTION          : Reporting of transactions for umbrella and rapidsure
+ * INPUT PARAMETERS     : data,Transaction Name
+ * OUTPUT               : None
+ * AUTHOR               : Laxminarayan Jena
+ */	
+public static void Reporting1(Hashtable<String,String> data ,String Policy_Status,String  Actual_Written_Premium ,String Actual_Other_Charges )
+{
+    HashMap<String, Integer> result = null;
+    String policyno=data.get("Policy Number") ;	
+    
+	report.addColumn(policyno,"StatusResult");
+	report.addColumn(policyno, Policy_Status);
+	report.setCellData(policyno,"StatusResult", 2, "Written_Premium");
+	report.setCellData(policyno,"StatusResult", 3, "Tax");
+	report.setCellData(policyno,Policy_Status, 2, Actual_Written_Premium);
+	report.setCellData(policyno,Policy_Status, 3, Actual_Other_Charges);
 	
-	
+}
 	
 }
