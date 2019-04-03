@@ -14,12 +14,32 @@ import UtilityFunction.TestUtil;
 
 public class BillingCentre extends BaseTest {
 
+	public String policyno;
+	public String AccountName;
+
 	@Test(dataProvider = "getData")
 	public void BillingCent(Hashtable<String, String> data)
 			throws InterruptedException {
 		HashMap<String, String> result = null;
+	
+		
+		if (currentdatasheet.contains("Surety"))
+		{
+			String Bondno = data.get("Bond Number") ;
+			String AccountName=data.get("Account Name") ;
+			 policyno = Bondno.substring(1);
+			 this.policyno=policyno;
+			 this.AccountName=AccountName;
+		}
+		
+		else
+		{
+			 policyno = data.get("Policy Number") ;
+			 this.policyno=policyno;
+			 
+		}
 
-		String policyno = data.get("Policy Number");
+		System.out.println(policyno);
 
 		if (policyno.equals("-") || policyno.equals("-NA-") ) {
 			System.out.println("skipping the test as it is invalid policyno");
@@ -42,6 +62,8 @@ public class BillingCentre extends BaseTest {
 				if (currentdatasheet.contains("Bordereau"))
 						{
 					
+					//add Status Column
+					
 					int rowNum= report.getCellRowNum("Results", "Policy Number", policyno);
 					report.setCellData("Results", "Status", rowNum, errorMsg);
 						}
@@ -50,8 +72,7 @@ public class BillingCentre extends BaseTest {
 					report.addColumn(data.get("Policy Number"), "StatusResult");
 					report.setCellData(data.get("Policy Number"), "StatusResult", 2, errorMsg);
 				}
-				
-				
+							
 
 			}
 
@@ -75,6 +96,7 @@ public class BillingCentre extends BaseTest {
 				String Actual_Other_Charges = getText("Actual_Other_Charges");
 				System.out.println(Actual_Written_Premium);
 				System.out.println(Actual_Other_Charges);
+				System.out.println("account name is -"+ AccountName);
 
 				if (currentdatasheet.contains("AQS_CL")|| currentdatasheet.contains("AQS_SL")|| currentdatasheet.contains("Medmal")) {
 					String pathid = data.get("PathID");
@@ -88,7 +110,7 @@ public class BillingCentre extends BaseTest {
 
 					} else if (transaction.equals("Sp")) {
 
-						TestUtil.Reporting(data, "Split Renewal");
+						TestUtil.SplitRenewalTransaction(data, "Split Renewal");
 
 					} else if (transaction.equals("CN")) {
 
@@ -100,8 +122,9 @@ public class BillingCentre extends BaseTest {
 					}
 
 					else if (transaction.equals("RN")) {
+																	
 
-						TestUtil.Reporting(data, "Renewal");
+						TestUtil.RenewalTransaction(data, "Renewal");
 
 					}
 
@@ -120,9 +143,19 @@ public class BillingCentre extends BaseTest {
 
 				}
 				
+				else if (currentdatasheet.contains("Surety"))
+				{				
+								
+				TestUtil.ReportingSurety(data, AccountName,Policy_Status);
+				
+				}	
+				
+				
+				
 				else if (currentdatasheet.contains("Bordereau"))
 				{
-					
+									
+								
 					int colNo= report.getColumnCount("Results");
 					System.out.println("total cols are "+ colNo);
 					if (colNo==4)
@@ -135,6 +168,8 @@ public class BillingCentre extends BaseTest {
 					int rowNum= report.getCellRowNum("Results", "Policy Number", policyno);
 					System.out.println("current rowno is" + rowNum);				
 					report.setCellData("Results", "Actual Premium", rowNum, Actual_Written_Premium);
+					
+				
 					
 				
 					String AppsPremium=data.get("Apps Premium");
@@ -158,7 +193,7 @@ public class BillingCentre extends BaseTest {
 						report.setCellData("Results", "Status", rowNum, "Fail");
 					}
 					
-					
+				
 										
 
 				}

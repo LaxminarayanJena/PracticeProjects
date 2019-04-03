@@ -1,172 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="51" passed="47">
+<testng-results skipped="26" failed="0" ignored="0" total="26" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[<a target='_blank' href="2018_6_11_8_14_39.jpeg">Capture Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target='_blank' href="2018_6_11_8_16_14.jpeg">Capture Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target='_blank' href="2018_6_11_8_17_28.jpeg">Capture Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target='_blank' href="2018_6_11_8_20_46.jpeg">Capture Screenshot</a>]]>
-    </line>
   </reporter-output>
-  <suite name="BillingCentre" duration-ms="505161" started-at="2018-11-06T13:12:22Z" finished-at="2018-11-06T13:20:47Z">
+  <suite name="BillingCentre" duration-ms="195" started-at="2019-03-15T12:29:17Z" finished-at="2019-03-15T12:29:18Z">
     <groups>
     </groups>
-    <test name="BillingCentreTest" duration-ms="505161" started-at="2018-11-06T13:12:22Z" finished-at="2018-11-06T13:20:47Z">
+    <test name="BillingCentreTest" duration-ms="195" started-at="2019-03-15T12:29:17Z" finished-at="2019-03-15T12:29:18Z">
       <class name="Script.BillingCentre">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Script.BillingCentre@e320068]" name="setUp" is-config="true" duration-ms="7895" started-at="2018-11-06T08:12:14Z" finished-at="2018-11-06T08:12:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="13669" started-at="2018-11-06T08:12:22Z" data-provider="getData" finished-at="2018-11-06T08:12:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=208.0, Policy Number=ACA10004665-00, Timestamp=11_1_2018 7_38_22 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12145" started-at="2018-11-06T08:12:35Z" data-provider="getData" finished-at="2018-11-06T08:12:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10004666-00, Timestamp=11_1_2018 7_38_46 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12119" started-at="2018-11-06T08:12:48Z" data-provider="getData" finished-at="2018-11-06T08:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10004667-00, Timestamp=11_1_2018 7_39_01 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12675" started-at="2018-11-06T08:13:00Z" data-provider="getData" finished-at="2018-11-06T08:13:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10004668-00, Timestamp=11_1_2018 7_39_19 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12217" started-at="2018-11-06T08:13:12Z" data-provider="getData" finished-at="2018-11-06T08:13:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10004669-00, Timestamp=11_1_2018 7_39_33 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12192" started-at="2018-11-06T08:13:25Z" data-provider="getData" finished-at="2018-11-06T08:13:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10012330-00, Timestamp=11_1_2018 7_39_48 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12074" started-at="2018-11-06T08:13:37Z" data-provider="getData" finished-at="2018-11-06T08:13:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=208.0, Policy Number=ACA10012331-00, Timestamp=11_1_2018 7_40_02 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12075" started-at="2018-11-06T08:13:49Z" data-provider="getData" finished-at="2018-11-06T08:14:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10012332-00, Timestamp=11_1_2018 7_40_16 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12309" started-at="2018-11-06T08:14:01Z" data-provider="getData" finished-at="2018-11-06T08:14:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=364.0, Policy Number=ACA10012333-00, Timestamp=11_1_2018 7_40_30 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12228" started-at="2018-11-06T08:14:13Z" data-provider="getData" finished-at="2018-11-06T08:14:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=446.0, Policy Number=ACA10012334-00, Timestamp=11_1_2018 7_40_44 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="13559" started-at="2018-11-06T08:14:25Z" data-provider="getData" finished-at="2018-11-06T08:14:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:Script.BillingCentre@e320068]" name="setUp" is-config="true" duration-ms="15567" started-at="2019-03-15T08:29:02Z" finished-at="2019-03-15T08:29:17Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -174,27 +33,17 @@ Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Script.BaseTest.getText(BaseTest.java:162)
-	at Script.BillingCentre.BillingCent(BillingCentre.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -207,183 +56,47 @@ Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a target='_blank' href="2018_6_11_8_14_39.jpeg">Capture Screenshot</a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4078" started-at="2018-11-06T08:14:39Z" data-provider="getData" finished-at="2018-11-06T08:14:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=750.0, Policy Number=PUL011120-01, Timestamp=11_1_2018 7_52_52 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4060" started-at="2018-11-06T08:14:43Z" data-provider="getData" finished-at="2018-11-06T08:14:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=10500.0, Policy Number=PUL011121-01, Timestamp=11_1_2018 7_53_11 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4002" started-at="2018-11-06T08:14:47Z" data-provider="getData" finished-at="2018-11-06T08:14:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=1073.0, Policy Number=PUL011122-01, Timestamp=11_1_2018 7_54_03 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4013" started-at="2018-11-06T08:14:51Z" data-provider="getData" finished-at="2018-11-06T08:14:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=4730.0, Policy Number=PUL011123-01, Timestamp=11_1_2018 7_54_18 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4054" started-at="2018-11-06T08:14:56Z" data-provider="getData" finished-at="2018-11-06T08:15:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=785.0, Policy Number=PUL011124-01, Timestamp=11_1_2018 7_54_38 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12110" started-at="2018-11-06T08:15:00Z" data-provider="getData" finished-at="2018-11-06T08:15:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=19259.0, Policy Number=PUL012020-00, Timestamp=11_1_2018 7_54_54 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12136" started-at="2018-11-06T08:15:12Z" data-provider="getData" finished-at="2018-11-06T08:15:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=19898.0, Policy Number=PUL012021-00, Timestamp=11_1_2018 7_55_10 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12188" started-at="2018-11-06T08:15:24Z" data-provider="getData" finished-at="2018-11-06T08:15:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=12000.0, Policy Number=PUL012022-00, Timestamp=11_1_2018 7_55_25 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="11946" started-at="2018-11-06T08:15:36Z" data-provider="getData" finished-at="2018-11-06T08:15:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=875.0, Policy Number=PUL012023-00, Timestamp=11_1_2018 7_55_40 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12072" started-at="2018-11-06T08:15:48Z" data-provider="getData" finished-at="2018-11-06T08:16:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=2885.0, Policy Number=PUL012024-00, Timestamp=11_1_2018 7_56_16 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="13510" started-at="2018-11-06T08:16:00Z" data-provider="getData" finished-at="2018-11-06T08:16:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
-	at sun.reflect.GeneratedConstructorAccessor76.newInstance(Unknown Source)
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Script.BaseTest.getText(BaseTest.java:162)
-	at Script.BillingCentre.BillingCent(BillingCentre.java:59)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -396,238 +109,47 @@ Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a target='_blank' href="2018_6_11_8_16_14.jpeg">Capture Screenshot</a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3974" started-at="2018-11-06T08:16:14Z" data-provider="getData" finished-at="2018-11-06T08:16:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168935-00, Timestamp=11_1_2018 10_07_07 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3989" started-at="2018-11-06T08:16:18Z" data-provider="getData" finished-at="2018-11-06T08:16:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=825.0, Policy Number=PHCPEVQ168936-00, Timestamp=11_1_2018 10_11_23 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4012" started-at="2018-11-06T08:16:22Z" data-provider="getData" finished-at="2018-11-06T08:16:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168937-00, Timestamp=11_1_2018 10_11_57 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3949" started-at="2018-11-06T08:16:26Z" data-provider="getData" finished-at="2018-11-06T08:16:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168938-00, Timestamp=11_1_2018 10_12_47 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4137" started-at="2018-11-06T08:16:30Z" data-provider="getData" finished-at="2018-11-06T08:16:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168939-00, Timestamp=11_1_2018 10_13_23 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4080" started-at="2018-11-06T08:16:34Z" data-provider="getData" finished-at="2018-11-06T08:16:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=225.0, Policy Number=PHCPEVQ168940-00, Timestamp=11_1_2018 10_13_57 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4287" started-at="2018-11-06T08:16:38Z" data-provider="getData" finished-at="2018-11-06T08:16:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=240.0, Policy Number=PHCPEVQ168941-00, Timestamp=11_1_2018 10_14_20 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3957" started-at="2018-11-06T08:16:42Z" data-provider="getData" finished-at="2018-11-06T08:16:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168942-00, Timestamp=11_1_2018 10_14_53 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3985" started-at="2018-11-06T08:16:46Z" data-provider="getData" finished-at="2018-11-06T08:16:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=184.0, Policy Number=PHCPEVQ168943-00, Timestamp=11_1_2018 10_15_14 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="3961" started-at="2018-11-06T08:16:50Z" data-provider="getData" finished-at="2018-11-06T08:16:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=175.0, Policy Number=PHCPEVQ168944-00, Timestamp=11_1_2018 10_15_45 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4059" started-at="2018-11-06T08:16:54Z" data-provider="getData" finished-at="2018-11-06T08:16:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=176.0, Policy Number=PHCPEVQ168945-00, Timestamp=11_1_2018 10_16_27 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4402" started-at="2018-11-06T08:16:58Z" data-provider="getData" finished-at="2018-11-06T08:17:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=176.0, Policy Number=PHCPEVQ168946-00, Timestamp=11_1_2018 10_17_06 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4057" started-at="2018-11-06T08:17:03Z" data-provider="getData" finished-at="2018-11-06T08:17:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=176.0, Policy Number=PHCPEVQ168947-00, Timestamp=11_1_2018 10_17_27 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4056" started-at="2018-11-06T08:17:07Z" data-provider="getData" finished-at="2018-11-06T08:17:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=176.0, Policy Number=PHCPEVQ168948-00, Timestamp=11_1_2018 10_17_57 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4054" started-at="2018-11-06T08:17:11Z" data-provider="getData" finished-at="2018-11-06T08:17:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=176.0, Policy Number=PHCPEVQ168949-00, Timestamp=11_1_2018 10_18_23 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="13363" started-at="2018-11-06T08:17:15Z" data-provider="getData" finished-at="2018-11-06T08:17:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
-	at sun.reflect.GeneratedConstructorAccessor76.newInstance(Unknown Source)
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Script.BaseTest.getText(BaseTest.java:162)
-	at Script.BillingCentre.BillingCent(BillingCentre.java:59)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -640,205 +162,47 @@ Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a target='_blank' href="2018_6_11_8_17_28.jpeg">Capture Screenshot</a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="67713" started-at="2018-11-06T08:17:28Z" data-provider="getData" finished-at="2018-11-06T08:18:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=8525.0, Policy Number=PX00P021373-00, Timestamp=11_1_2018 10_47_27 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4311" started-at="2018-11-06T08:18:36Z" data-provider="getData" finished-at="2018-11-06T08:18:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=1800.0, Policy Number=PX00P021374-00, Timestamp=11_1_2018 10_47_57 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="4264" started-at="2018-11-06T08:18:40Z" data-provider="getData" finished-at="2018-11-06T08:18:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=540.0, Policy Number=PX00P021375-00, Timestamp=11_1_2018 10_48_15 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12284" started-at="2018-11-06T08:18:45Z" data-provider="getData" finished-at="2018-11-06T08:18:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=8525.0, Policy Number=PX00P021393-00, Timestamp=11_1_2018 10_48_45 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12009" started-at="2018-11-06T08:18:57Z" data-provider="getData" finished-at="2018-11-06T08:19:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=1800.0, Policy Number=PX00P021394-00, Timestamp=11_1_2018 10_49_04 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="11989" started-at="2018-11-06T08:19:09Z" data-provider="getData" finished-at="2018-11-06T08:19:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=540.0, Policy Number=PX00P021395-00, Timestamp=11_1_2018 10_49_24 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12102" started-at="2018-11-06T08:19:21Z" data-provider="getData" finished-at="2018-11-06T08:19:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=2608.0, Policy Number=PI00P032364-00, Timestamp=11_1_2018 10_49_43 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12045" started-at="2018-11-06T08:19:33Z" data-provider="getData" finished-at="2018-11-06T08:19:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=8577.0, Policy Number=PI00P031365-00, Timestamp=11_1_2018 10_50_01 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12028" started-at="2018-11-06T08:19:45Z" data-provider="getData" finished-at="2018-11-06T08:19:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=750.0, Policy Number=PI00P035364-00, Timestamp=11_1_2018 10_50_19 AM, Trans=RN}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="11956" started-at="2018-11-06T08:19:57Z" data-provider="getData" finished-at="2018-11-06T08:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=2608.0, Policy Number=PI00P032374-00, Timestamp=11_1_2018 10_50_40 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="11807" started-at="2018-11-06T08:20:09Z" data-provider="getData" finished-at="2018-11-06T08:20:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=8577.0, Policy Number=PI00P031385-00, Timestamp=11_1_2018 10_50_58 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="12043" started-at="2018-11-06T08:20:21Z" data-provider="getData" finished-at="2018-11-06T08:20:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=750.0, Policy Number=PI00P035374-00, Timestamp=11_1_2018 10_51_20 AM, Trans=NB}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingCent -->
-        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="13492" started-at="2018-11-06T08:20:33Z" data-provider="getData" finished-at="2018-11-06T08:20:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir14908_21720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
-*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
-	at sun.reflect.GeneratedConstructorAccessor76.newInstance(Unknown Source)
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Script.BaseTest.getText(BaseTest.java:162)
-	at Script.BillingCentre.BillingCent(BillingCentre.java:59)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -851,14 +215,1230 @@ Session ID: 52e5bf97cc423619d044ae3fbf93a5e0
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-            <line>
-              <![CDATA[<a target='_blank' href="2018_6_11_8_20_46.jpeg">Capture Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- BillingCent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Script.BillingCentre@e320068]" name="tearDown" is-config="true" duration-ms="1678" started-at="2018-11-06T08:20:47Z" finished-at="2018-11-06T08:20:49Z">
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="1" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="0" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@e320068]" name="BillingCent" duration-ms="1" started-at="2019-03-15T08:29:18Z" data-provider="getData" finished-at="2019-03-15T08:29:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://ljena:123tmnas*@phlygwbcqa.corp.tmnas.com/bc/BillingCenter.do. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:43291/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 259047d1-1d8a-478f-a044-2512766dcd1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Script.BaseTest.setUp(BaseTest.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Script.BillingCentre@e320068]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-15T08:29:18Z" finished-at="2019-03-15T08:29:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

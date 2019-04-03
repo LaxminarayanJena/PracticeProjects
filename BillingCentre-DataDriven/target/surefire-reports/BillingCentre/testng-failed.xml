@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BillingCentre]">
+  <listeners>
+    <listener class-name="Resources.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BillingCentreTest(failed)">
+    <classes>
+      <class name="Script.BillingCentre">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="BillingCent" invocation-numbers="15 28 39 50"/>
+        </methods>
+      </class> <!-- Script.BillingCentre -->
+    </classes>
+  </test> <!-- BillingCentreTest(failed) -->
+</suite> <!-- Failed suite [BillingCentre] -->

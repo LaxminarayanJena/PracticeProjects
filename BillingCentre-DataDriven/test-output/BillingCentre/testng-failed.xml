@@ -12,7 +12,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="BillingCent" invocation-numbers="10 21 37 50"/>
+          <include name="BillingCent"/>
         </methods>
       </class> <!-- Script.BillingCentre -->
     </classes>

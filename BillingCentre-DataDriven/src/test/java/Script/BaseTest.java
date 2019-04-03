@@ -106,7 +106,19 @@ public class BaseTest {
 			}else if(Config.getProperty("browser").equals("ie")){
 				
 				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\test\\java\\resources\\executables\\IEDriverServer.exe");
-				driver = new InternetExplorerDriver();
+				//driver = new InternetExplorerDriver();
+				
+				DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+				capabilities.setCapability("requireWindowFocus", true);  
+				capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, false);
+				capabilities.setCapability("ie.ensureCleanSession", true);
+				capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+				//capabilities.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);
+				driver = new InternetExplorerDriver(capabilities);
+				
+				
+				
+				
 			}
 			
          else if(Config.getProperty("browser").equals("headless")){
@@ -123,7 +135,10 @@ public class BaseTest {
      		 driver = new PhantomJSDriver(dcap);
 			}
 			
-			driver.navigate().to(Config.getProperty("testsiteurl"));
+			
+			String URL = "https://" + Config.getProperty("username") + ":" + Config.getProperty("password") + "@" + Config.getProperty("testsiteurl");
+			driver.get(URL);
+						
 			log.debug("Navigated to : "+Config.getProperty("testsiteurl"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(5L, TimeUnit.SECONDS);
@@ -143,13 +158,13 @@ public class BaseTest {
 			return false;
 		}		
 	}
-	public void type(String locator, String value)
+	public static void type(String locator, String value)
 	{
 		driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
 		
 	}	
 	
-public void click(String locator)
+public static void click(String locator)
 	
 	{
 		driver.findElement(By.xpath(OR.getProperty(locator))).click();
