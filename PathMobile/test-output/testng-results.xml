@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PathMobile" duration-ms="232" started-at="2019-04-05T13:10:23Z" finished-at="2019-04-05T13:10:23Z">
+    <groups>
+    </groups>
+    <test name="PathMobileTest" duration-ms="232" started-at="2019-04-05T13:10:23Z" finished-at="2019-04-05T13:10:23Z">
+      <class name="Script.PathMobile_AccountCall">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Script.PathMobile_AccountCall@24fcf36f]" name="setUp" is-config="true" duration-ms="7362" started-at="2019-04-05T09:10:16Z" finished-at="2019-04-05T09:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="accountcall()[pri:0, instance:Script.PathMobile_AccountCall@24fcf36f]" name="accountcall" duration-ms="214" started-at="2019-04-05T09:10:23Z" finished-at="2019-04-05T09:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountcall -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Script.PathMobile_AccountCall@24fcf36f]" name="tearDown" is-config="true" duration-ms="8409" started-at="2019-04-05T09:10:23Z" finished-at="2019-04-05T09:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Script.PathMobile_AccountCall -->
+    </test> <!-- PathMobileTest -->
+  </suite> <!-- PathMobile -->
+</testng-results>

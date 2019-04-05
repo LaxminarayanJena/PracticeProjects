@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="51" passed="47">
+  <reporter-output>
+    <line>
+      <![CDATA[<a target='_blank' href="2019_9_1_9_28_47.jpeg">Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="2019_9_1_9_31_23.jpeg">Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="2019_9_1_9_33_36.jpeg">Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="2019_9_1_9_35_27.jpeg">Capture Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="BillingCentre" duration-ms="594102" started-at="2019-01-09T14:25:33Z" finished-at="2019-01-09T14:35:27Z">
+    <groups>
+    </groups>
+    <test name="BillingCentreTest" duration-ms="594102" started-at="2019-01-09T14:25:33Z" finished-at="2019-01-09T14:35:27Z">
+      <class name="Script.BillingCentre">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Script.BillingCentre@39c0f4a]" name="setUp" is-config="true" duration-ms="9359" started-at="2019-01-09T09:25:23Z" finished-at="2019-01-09T09:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13597" started-at="2019-01-09T09:25:33Z" data-provider="getData" finished-at="2019-01-09T09:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12248" started-at="2019-01-09T09:25:46Z" data-provider="getData" finished-at="2019-01-09T09:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11871" started-at="2019-01-09T09:25:59Z" data-provider="getData" finished-at="2019-01-09T09:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12021" started-at="2019-01-09T09:26:10Z" data-provider="getData" finished-at="2019-01-09T09:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12287" started-at="2019-01-09T09:26:22Z" data-provider="getData" finished-at="2019-01-09T09:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12088" started-at="2019-01-09T09:26:35Z" data-provider="getData" finished-at="2019-01-09T09:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11847" started-at="2019-01-09T09:26:47Z" data-provider="getData" finished-at="2019-01-09T09:26:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12039" started-at="2019-01-09T09:26:59Z" data-provider="getData" finished-at="2019-01-09T09:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11892" started-at="2019-01-09T09:27:11Z" data-provider="getData" finished-at="2019-01-09T09:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11957" started-at="2019-01-09T09:27:23Z" data-provider="getData" finished-at="2019-01-09T09:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11777" started-at="2019-01-09T09:27:35Z" data-provider="getData" finished-at="2019-01-09T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11711" started-at="2019-01-09T09:27:46Z" data-provider="getData" finished-at="2019-01-09T09:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11909" started-at="2019-01-09T09:27:58Z" data-provider="getData" finished-at="2019-01-09T09:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11847" started-at="2019-01-09T09:28:10Z" data-provider="getData" finished-at="2019-01-09T09:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11953" started-at="2019-01-09T09:28:22Z" data-provider="getData" finished-at="2019-01-09T09:28:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13533" started-at="2019-01-09T09:28:34Z" data-provider="getData" finished-at="2019-01-09T09:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href="2019_9_1_9_28_47.jpeg">Capture Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11838" started-at="2019-01-09T09:28:48Z" data-provider="getData" finished-at="2019-01-09T09:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11803" started-at="2019-01-09T09:29:00Z" data-provider="getData" finished-at="2019-01-09T09:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11833" started-at="2019-01-09T09:29:11Z" data-provider="getData" finished-at="2019-01-09T09:29:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11985" started-at="2019-01-09T09:29:23Z" data-provider="getData" finished-at="2019-01-09T09:29:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11738" started-at="2019-01-09T09:29:35Z" data-provider="getData" finished-at="2019-01-09T09:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11670" started-at="2019-01-09T09:29:47Z" data-provider="getData" finished-at="2019-01-09T09:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11777" started-at="2019-01-09T09:29:59Z" data-provider="getData" finished-at="2019-01-09T09:30:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11908" started-at="2019-01-09T09:30:10Z" data-provider="getData" finished-at="2019-01-09T09:30:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11951" started-at="2019-01-09T09:30:22Z" data-provider="getData" finished-at="2019-01-09T09:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12065" started-at="2019-01-09T09:30:34Z" data-provider="getData" finished-at="2019-01-09T09:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11774" started-at="2019-01-09T09:30:46Z" data-provider="getData" finished-at="2019-01-09T09:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11823" started-at="2019-01-09T09:30:58Z" data-provider="getData" finished-at="2019-01-09T09:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13402" started-at="2019-01-09T09:31:10Z" data-provider="getData" finished-at="2019-01-09T09:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href="2019_9_1_9_31_23.jpeg">Capture Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11906" started-at="2019-01-09T09:31:24Z" data-provider="getData" finished-at="2019-01-09T09:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11686" started-at="2019-01-09T09:31:35Z" data-provider="getData" finished-at="2019-01-09T09:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11783" started-at="2019-01-09T09:31:47Z" data-provider="getData" finished-at="2019-01-09T09:31:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11771" started-at="2019-01-09T09:31:59Z" data-provider="getData" finished-at="2019-01-09T09:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11713" started-at="2019-01-09T09:32:11Z" data-provider="getData" finished-at="2019-01-09T09:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11963" started-at="2019-01-09T09:32:22Z" data-provider="getData" finished-at="2019-01-09T09:32:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11893" started-at="2019-01-09T09:32:34Z" data-provider="getData" finished-at="2019-01-09T09:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11658" started-at="2019-01-09T09:32:46Z" data-provider="getData" finished-at="2019-01-09T09:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12712" started-at="2019-01-09T09:32:58Z" data-provider="getData" finished-at="2019-01-09T09:33:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11757" started-at="2019-01-09T09:33:11Z" data-provider="getData" finished-at="2019-01-09T09:33:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13399" started-at="2019-01-09T09:33:22Z" data-provider="getData" finished-at="2019-01-09T09:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href="2019_9_1_9_33_36.jpeg">Capture Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13146" started-at="2019-01-09T09:33:36Z" data-provider="getData" finished-at="2019-01-09T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11608" started-at="2019-01-09T09:33:49Z" data-provider="getData" finished-at="2019-01-09T09:34:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="4716" started-at="2019-01-09T09:34:01Z" data-provider="getData" finished-at="2019-01-09T09:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12026" started-at="2019-01-09T09:34:06Z" data-provider="getData" finished-at="2019-01-09T09:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11762" started-at="2019-01-09T09:34:18Z" data-provider="getData" finished-at="2019-01-09T09:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="4087" started-at="2019-01-09T09:34:29Z" data-provider="getData" finished-at="2019-01-09T09:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="12095" started-at="2019-01-09T09:34:33Z" data-provider="getData" finished-at="2019-01-09T09:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11658" started-at="2019-01-09T09:34:45Z" data-provider="getData" finished-at="2019-01-09T09:34:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="4052" started-at="2019-01-09T09:34:57Z" data-provider="getData" finished-at="2019-01-09T09:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="11789" started-at="2019-01-09T09:35:01Z" data-provider="getData" finished-at="2019-01-09T09:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="FAIL" signature="BillingCent(java.util.Hashtable)[pri:0, instance:Script.BillingCentre@39c0f4a]" name="BillingCent" duration-ms="13512" started-at="2019-01-09T09:35:13Z" data-provider="getData" finished-at="2019-01-09T09:35:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'W00PISVDI247', ip: '10.60.202.198', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id='Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber']}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target='_blank' href="2019_9_1_9_35_27.jpeg">Capture Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BillingCent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Script.BillingCentre@39c0f4a]" name="tearDown" is-config="true" duration-ms="9202" started-at="2019-01-09T09:35:27Z" finished-at="2019-01-09T09:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Script.BillingCentre -->
+    </test> <!-- BillingCentreTest -->
+  </suite> <!-- BillingCentre -->
+</testng-results>

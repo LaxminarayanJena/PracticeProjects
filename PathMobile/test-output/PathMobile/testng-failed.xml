@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PathMobile]">
+  <listeners>
+    <listener class-name="Resources.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="PathMobileTest(failed)">
+    <classes>
+      <class name="Script.PathMobile_AccountCall">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="accountcall"/>
+        </methods>
+      </class> <!-- Script.PathMobile_AccountCall -->
+    </classes>
+  </test> <!-- PathMobileTest(failed) -->
+</suite> <!-- Failed suite [PathMobile] -->

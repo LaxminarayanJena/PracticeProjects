@@ -1,0 +1,655 @@
+<html>
+<head>
+<title>TestNG:  BillingCentreTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BillingCentreTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>47/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 09 09:25:33 EST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>594 seconds (594102 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=}<br/>
+<a href="#Output-1251788491" onClick='toggleBox("Output-1251788491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1251788491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1251788491">
+<a target='_blank' href="2019_9_1_9_28_47.jpeg">Capture Screenshot</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1251788491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251788491'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=}<br/>
+<a href="#Output-417875774" onClick='toggleBox("Output-417875774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417875774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417875774">
+<a target='_blank' href="2019_9_1_9_31_23.jpeg">Capture Screenshot</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace417875774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace417875774'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=}<br/>
+<a href="#Output-235162442" onClick='toggleBox("Output-235162442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-235162442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-235162442">
+<a target='_blank' href="2019_9_1_9_33_36.jpeg">Capture Screenshot</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace235162442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace235162442'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=}<br/>
+<a href="#Output-1300576734" onClick='toggleBox("Output-1300576734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1300576734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1300576734">
+<a target='_blank' href="2019_9_1_9_35_27.jpeg">Capture Screenshot</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1300576734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1300576734'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB}</td>
+<td></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB}</td>
+<td></td>
+<td>13</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB}</td>
+<td></td>
+<td>4</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN}</td>
+<td></td>
+<td>4</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN}</td>
+<td></td>
+<td>12</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN}</td>
+<td></td>
+<td>4</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+<tr>
+<td title='Script.BillingCentre.BillingCent()'><b>BillingCent</b><br>Test class: Script.BillingCentre<br>Parameters: {Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN}</td>
+<td></td>
+<td>11</td>
+<td>Script.BillingCentre@39c0f4a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BillingCentre">
+              <span class="suite-name border-failed">BillingCentre</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BillingCentre">
+                    <span>C:\lnjena\selenium\BC\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BillingCentre">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BillingCentre">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BillingCentre">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BillingCentre">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BillingCentre">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BillingCentre">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods, 4 failed,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BillingCentre" class="hide-methods failed suite-BillingCentre"> (hide)</a> <!-- hide-methods failed suite-BillingCentre -->
+                      <a href="#" panel-name="suite-BillingCentre" class="show-methods failed suite-BillingCentre"> (show)</a> <!-- show-methods failed suite-BillingCentre -->
+                    </span>
+                    <div class="method-list-content failed suite-BillingCentre">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})">BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})">BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})">BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})">BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BillingCentre -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BillingCentre" class="hide-methods passed suite-BillingCentre"> (hide)</a> <!-- hide-methods passed suite-BillingCentre -->
+                      <a href="#" panel-name="suite-BillingCentre" class="show-methods passed suite-BillingCentre"> (show)</a> <!-- show-methods passed suite-BillingCentre -->
+                    </span>
+                    <div class="method-list-content passed suite-BillingCentre">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB})">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB})">BillingCent({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN})">BillingCent({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB})">BillingCent({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB})">BillingCent({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB})">BillingCent({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB})">BillingCent({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB})">BillingCent({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB})">BillingCent({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB})">BillingCent({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB})">BillingCent({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB})">BillingCent({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB})">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB})">BillingCent({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB})">BillingCent({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB})">BillingCent({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB})">BillingCent({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB})">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN})">BillingCent({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB})">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN})">BillingCent({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN})">BillingCent({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN})">BillingCent({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB})">BillingCent({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB})">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB})">BillingCent({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN})">BillingCent({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN})">BillingCent({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN})">BillingCent({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN})">BillingCent({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN})">BillingCent({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN})">BillingCent({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB})">BillingCent({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB})">BillingCent({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN})">BillingCent({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN})">BillingCent({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN})">BillingCent({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB})">BillingCent({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN})">BillingCent({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB})">BillingCent({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN})">BillingCent({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BillingCentre" title="Script.BillingCentre" hash-for-method="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB})">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BillingCentre -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BillingCentre" class="panel BillingCentre">
+          <div class="suite-BillingCentre-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Script.BillingCentre</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})">
+                  </a> <!-- BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})">
+                  </a> <!-- BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})">
+                  </a> <!-- BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})">
+                  </a> <!-- BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;W00PISVDI247&apos;, ip: &apos;10.60.202.198&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ljena\AppData\Local\Temp\scoped_dir16736_30075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f9ebf0e37606eef9b6a26c6651d4fb
+*** Element info: {Using=xpath, value=//a[@id=&apos;Policies:PolicySearchScreen:PolicySearchResultsLV:0:PolicyNumber&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Script.BaseTest.getText(BaseTest.java:162)
+	at Script.BillingCentre.BillingCent(BillingCentre.java:60)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BillingCentre-class-failed -->
+          <div class="suite-BillingCentre-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Script.BillingCentre</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN})">
+                  </a> <!-- BillingCent({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB})">
+                  </a> <!-- BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB}) -->
+                  <span class="method-name">BillingCent</span>
+                  <span class="parameters">({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BillingCentre-class-passed -->
+        </div> <!-- panel BillingCentre -->
+        <div panel-name="test-xml-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\lnjena\selenium\BC\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;BillingCentre&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Resources.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;BillingCentreTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Script.BillingCentre&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BillingCentreTest --&gt;
+&lt;/suite&gt; &lt;!-- BillingCentre --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BillingCentreTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BillingCentre');
+function tableData_BillingCentre() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'BillingCent')
+data.setCell(0, 2, 'Script.BillingCentre')
+data.setCell(0, 3, 13597);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BillingCent')
+data.setCell(1, 2, 'Script.BillingCentre')
+data.setCell(1, 3, 13533);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BillingCent')
+data.setCell(2, 2, 'Script.BillingCentre')
+data.setCell(2, 3, 13512);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'BillingCent')
+data.setCell(3, 2, 'Script.BillingCentre')
+data.setCell(3, 3, 13402);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BillingCent')
+data.setCell(4, 2, 'Script.BillingCentre')
+data.setCell(4, 3, 13399);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'BillingCent')
+data.setCell(5, 2, 'Script.BillingCentre')
+data.setCell(5, 3, 13146);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BillingCent')
+data.setCell(6, 2, 'Script.BillingCentre')
+data.setCell(6, 3, 12712);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BillingCent')
+data.setCell(7, 2, 'Script.BillingCentre')
+data.setCell(7, 3, 12287);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'BillingCent')
+data.setCell(8, 2, 'Script.BillingCentre')
+data.setCell(8, 3, 12248);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'BillingCent')
+data.setCell(9, 2, 'Script.BillingCentre')
+data.setCell(9, 3, 12095);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BillingCent')
+data.setCell(10, 2, 'Script.BillingCentre')
+data.setCell(10, 3, 12088);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BillingCent')
+data.setCell(11, 2, 'Script.BillingCentre')
+data.setCell(11, 3, 12065);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'BillingCent')
+data.setCell(12, 2, 'Script.BillingCentre')
+data.setCell(12, 3, 12039);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'BillingCent')
+data.setCell(13, 2, 'Script.BillingCentre')
+data.setCell(13, 3, 12026);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'BillingCent')
+data.setCell(14, 2, 'Script.BillingCentre')
+data.setCell(14, 3, 12021);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'BillingCent')
+data.setCell(15, 2, 'Script.BillingCentre')
+data.setCell(15, 3, 11985);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'BillingCent')
+data.setCell(16, 2, 'Script.BillingCentre')
+data.setCell(16, 3, 11963);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'BillingCent')
+data.setCell(17, 2, 'Script.BillingCentre')
+data.setCell(17, 3, 11957);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'BillingCent')
+data.setCell(18, 2, 'Script.BillingCentre')
+data.setCell(18, 3, 11953);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'BillingCent')
+data.setCell(19, 2, 'Script.BillingCentre')
+data.setCell(19, 3, 11951);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'BillingCent')
+data.setCell(20, 2, 'Script.BillingCentre')
+data.setCell(20, 3, 11909);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'BillingCent')
+data.setCell(21, 2, 'Script.BillingCentre')
+data.setCell(21, 3, 11908);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'BillingCent')
+data.setCell(22, 2, 'Script.BillingCentre')
+data.setCell(22, 3, 11906);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'BillingCent')
+data.setCell(23, 2, 'Script.BillingCentre')
+data.setCell(23, 3, 11893);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'BillingCent')
+data.setCell(24, 2, 'Script.BillingCentre')
+data.setCell(24, 3, 11892);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'BillingCent')
+data.setCell(25, 2, 'Script.BillingCentre')
+data.setCell(25, 3, 11871);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'BillingCent')
+data.setCell(26, 2, 'Script.BillingCentre')
+data.setCell(26, 3, 11847);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'BillingCent')
+data.setCell(27, 2, 'Script.BillingCentre')
+data.setCell(27, 3, 11847);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'BillingCent')
+data.setCell(28, 2, 'Script.BillingCentre')
+data.setCell(28, 3, 11838);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'BillingCent')
+data.setCell(29, 2, 'Script.BillingCentre')
+data.setCell(29, 3, 11833);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'BillingCent')
+data.setCell(30, 2, 'Script.BillingCentre')
+data.setCell(30, 3, 11823);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'BillingCent')
+data.setCell(31, 2, 'Script.BillingCentre')
+data.setCell(31, 3, 11803);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'BillingCent')
+data.setCell(32, 2, 'Script.BillingCentre')
+data.setCell(32, 3, 11789);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'BillingCent')
+data.setCell(33, 2, 'Script.BillingCentre')
+data.setCell(33, 3, 11783);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'BillingCent')
+data.setCell(34, 2, 'Script.BillingCentre')
+data.setCell(34, 3, 11777);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'BillingCent')
+data.setCell(35, 2, 'Script.BillingCentre')
+data.setCell(35, 3, 11777);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'BillingCent')
+data.setCell(36, 2, 'Script.BillingCentre')
+data.setCell(36, 3, 11774);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'BillingCent')
+data.setCell(37, 2, 'Script.BillingCentre')
+data.setCell(37, 3, 11771);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'BillingCent')
+data.setCell(38, 2, 'Script.BillingCentre')
+data.setCell(38, 3, 11762);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'BillingCent')
+data.setCell(39, 2, 'Script.BillingCentre')
+data.setCell(39, 3, 11757);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'BillingCent')
+data.setCell(40, 2, 'Script.BillingCentre')
+data.setCell(40, 3, 11738);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'BillingCent')
+data.setCell(41, 2, 'Script.BillingCentre')
+data.setCell(41, 3, 11713);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'BillingCent')
+data.setCell(42, 2, 'Script.BillingCentre')
+data.setCell(42, 3, 11711);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'BillingCent')
+data.setCell(43, 2, 'Script.BillingCentre')
+data.setCell(43, 3, 11686);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'BillingCent')
+data.setCell(44, 2, 'Script.BillingCentre')
+data.setCell(44, 3, 11670);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'BillingCent')
+data.setCell(45, 2, 'Script.BillingCentre')
+data.setCell(45, 3, 11658);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'BillingCent')
+data.setCell(46, 2, 'Script.BillingCentre')
+data.setCell(46, 3, 11658);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'BillingCent')
+data.setCell(47, 2, 'Script.BillingCentre')
+data.setCell(47, 3, 11608);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'BillingCent')
+data.setCell(48, 2, 'Script.BillingCentre')
+data.setCell(48, 3, 4716);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'BillingCent')
+data.setCell(49, 2, 'Script.BillingCentre')
+data.setCell(49, 3, 4087);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'BillingCent')
+data.setCell(50, 2, 'Script.BillingCentre')
+data.setCell(50, 3, 4052);
+window.suiteTableData['BillingCentre']= { tableData: data, tableDiv: 'times-div-BillingCentre'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-BillingCentre">
+              </div> <!-- times-div-BillingCentre -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BillingCentre</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a target='_blank' href="2019_9_1_9_31_23.jpeg">Capture Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a target='_blank' href="2019_9_1_9_28_47.jpeg">Capture Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a target='_blank' href="2019_9_1_9_35_27.jpeg">Capture Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a target='_blank' href="2019_9_1_9_33_36.jpeg">Capture Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BillingCentre" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Script.BillingCentre</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169130-00, Timestamp=1_4_2019 11_28_29 AM, Trans=NB})</span>
+                <span class="method-start">9438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=825.0, Policy Number=PHEVQ169131-00, Timestamp=1_4_2019 11_28_41 AM, Trans=NB})</span>
+                <span class="method-start">23035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169132-00, Timestamp=1_4_2019 11_28_53 AM, Trans=NB})</span>
+                <span class="method-start">35284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169133-00, Timestamp=1_4_2019 11_29_05 AM, Trans=NB})</span>
+                <span class="method-start">47156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169134-00, Timestamp=1_4_2019 11_29_18 AM, Trans=NB})</span>
+                <span class="method-start">59177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=225.0, Policy Number=PHEVQ169135-00, Timestamp=1_4_2019 11_29_30 AM, Trans=NB})</span>
+                <span class="method-start">71465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=240.0, Policy Number=PHEVQ169136-00, Timestamp=1_4_2019 11_29_42 AM, Trans=NB})</span>
+                <span class="method-start">83554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169137-00, Timestamp=1_4_2019 11_29_55 AM, Trans=NB})</span>
+                <span class="method-start">95410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=184.0, Policy Number=PHEVQ169138-00, Timestamp=1_4_2019 11_30_07 AM, Trans=NB})</span>
+                <span class="method-start">107450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=175.0, Policy Number=PHEVQ169139-00, Timestamp=1_4_2019 11_30_19 AM, Trans=NB})</span>
+                <span class="method-start">119343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169140-00, Timestamp=1_4_2019 11_30_31 AM, Trans=NB})</span>
+                <span class="method-start">131301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169141-00, Timestamp=1_4_2019 11_30_43 AM, Trans=NB})</span>
+                <span class="method-start">143079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169142-00, Timestamp=1_4_2019 11_30_56 AM, Trans=NB})</span>
+                <span class="method-start">154791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169143-00, Timestamp=1_4_2019 11_31_08 AM, Trans=NB})</span>
+                <span class="method-start">166701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=176.0, Policy Number=PHEVQ169144-00, Timestamp=1_4_2019 11_31_21 AM, Trans=NB})</span>
+                <span class="method-start">178549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BillingCent({Apps Premium=3404.0, Policy Number=, Timestamp=CPHSE Total, Trans=})</span>
+                <span class="method-start">190505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=8525.0, Policy Number=PX00P021418-00, Timestamp=1_4_2019 12_05_22 PM, Trans=NB})</span>
+                <span class="method-start">204368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=1800.0, Policy Number=PX00P021419-00, Timestamp=1_4_2019 12_05_34 PM, Trans=NB})</span>
+                <span class="method-start">216206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=540.0, Policy Number=PX00P021420-00, Timestamp=1_4_2019 12_05_46 PM, Trans=NB})</span>
+                <span class="method-start">228009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=8525.0, Policy Number=PX00P021465-00, Timestamp=1_4_2019 12_05_59 PM, Trans=RN})</span>
+                <span class="method-start">239843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=1800.0, Policy Number=PX00P021466-00, Timestamp=1_4_2019 12_06_11 PM, Trans=RN})</span>
+                <span class="method-start">251829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=540.0, Policy Number=PX00P021467-00, Timestamp=1_4_2019 12_06_23 PM, Trans=RN})</span>
+                <span class="method-start">263568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=2608.0, Policy Number=PI00P032404-00, Timestamp=1_4_2019 12_06_36 PM, Trans=NB})</span>
+                <span class="method-start">275238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=8577.0, Policy Number=PI00P031407-00, Timestamp=1_4_2019 12_06_48 PM, Trans=NB})</span>
+                <span class="method-start">287016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=750.0, Policy Number=PI00P035392-00, Timestamp=1_4_2019 12_07_01 PM, Trans=NB})</span>
+                <span class="method-start">298924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=2608.0, Policy Number=PI00P032381-00, Timestamp=1_4_2019 12_07_13 PM, Trans=RN})</span>
+                <span class="method-start">310875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=8577.0, Policy Number=PI00P031392-00, Timestamp=1_4_2019 12_07_25 PM, Trans=RN})</span>
+                <span class="method-start">322940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=750.0, Policy Number=PI00P035381-00, Timestamp=1_4_2019 12_07_38 PM, Trans=RN})</span>
+                <span class="method-start">334714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BillingCent({Apps Premium=45600.0, Policy Number=, Timestamp=WNC Total, Trans=})</span>
+                <span class="method-start">346538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=750.0, Policy Number=PUL011145-00, Timestamp=1_4_2019 12_27_02 PM, Trans=RN})</span>
+                <span class="method-start">360218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=10500.0, Policy Number=PUL011146-00, Timestamp=1_4_2019 12_27_14 PM, Trans=RN})</span>
+                <span class="method-start">372124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=1073.0, Policy Number=PUL011147-00, Timestamp=1_4_2019 12_27_26 PM, Trans=RN})</span>
+                <span class="method-start">383811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=4730.0, Policy Number=PUL011148-00, Timestamp=1_4_2019 12_27_39 PM, Trans=RN})</span>
+                <span class="method-start">395596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=785.0, Policy Number=PUL011149-00, Timestamp=1_4_2019 12_27_51 PM, Trans=RN})</span>
+                <span class="method-start">407368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=19259.0, Policy Number=PUL012050-00, Timestamp=1_4_2019 12_28_03 PM, Trans=NB})</span>
+                <span class="method-start">419082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=19898.0, Policy Number=PUL012051-00, Timestamp=1_4_2019 12_28_16 PM, Trans=NB})</span>
+                <span class="method-start">431046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=12000.0, Policy Number=PUL012052-00, Timestamp=1_4_2019 12_28_28 PM, Trans=NB})</span>
+                <span class="method-start">442940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=875.0, Policy Number=PUL012053-00, Timestamp=1_4_2019 12_28_40 PM, Trans=NB})</span>
+                <span class="method-start">454598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=2885.0, Policy Number=PUL012054-00, Timestamp=1_4_2019 12_28_53 PM, Trans=NB})</span>
+                <span class="method-start">467311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BillingCent({Apps Premium=72755.0, Policy Number=, Timestamp=PUL Total, Trans=})</span>
+                <span class="method-start">479068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=208.0, Policy Number=ACA10004690-00, Timestamp=1_4_2019 12_50_46 PM, Trans=NB})</span>
+                <span class="method-start">492741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=494.0, Policy Number=ACA10004691-00, Timestamp=1_4_2019 12_50_58 PM, Trans=NB})</span>
+                <span class="method-start">505888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=366.0, Policy Number=ACA10004692-00, Timestamp=1_4_2019 12_51_11 PM, Trans=NB})</span>
+                <span class="method-start">517497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=366.0, Policy Number=ACA10004693-00, Timestamp=1_4_2019 12_51_23 PM, Trans=NB})</span>
+                <span class="method-start">522213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=494.0, Policy Number=ACA10004694-00, Timestamp=1_4_2019 12_51_35 PM, Trans=NB})</span>
+                <span class="method-start">534240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=366.0, Policy Number=ACA10012350-00, Timestamp=1_4_2019 12_51_47 PM, Trans=RN})</span>
+                <span class="method-start">546002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=208.0, Policy Number=ACA10012351-00, Timestamp=1_4_2019 12_52_00 PM, Trans=RN})</span>
+                <span class="method-start">550091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=494.0, Policy Number=ACA10012352-00, Timestamp=1_4_2019 12_52_12 PM, Trans=RN})</span>
+                <span class="method-start">562187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=364.0, Policy Number=ACA10012353-00, Timestamp=1_4_2019 12_52_24 PM, Trans=RN})</span>
+                <span class="method-start">573845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingCent({Apps Premium=446.0, Policy Number=ACA10012354-00, Timestamp=1_4_2019 12_52_36 PM, Trans=RN})</span>
+                <span class="method-start">577898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BillingCent({Apps Premium=3806.0, Policy Number=, Timestamp=ACA Total, Trans=})</span>
+                <span class="method-start">589687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">603519 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
