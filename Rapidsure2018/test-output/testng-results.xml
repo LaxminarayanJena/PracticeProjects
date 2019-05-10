@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="299695" started-at="2018-09-05T08:31:35Z" finished-at="2018-09-05T08:36:35Z">
+    <groups>
+    </groups>
+    <test name="RenewalPaymentPortal" duration-ms="299695" started-at="2018-09-05T08:31:35Z" finished-at="2018-09-05T08:36:35Z">
+      <class name="Scripts.CV_NB">
+        <test-method status="PASS" signature="test(int)[pri:0, instance:Scripts.CV_NB@6c3708b3]" name="test" duration-ms="299669" started-at="2018-09-05T04:31:36Z" finished-at="2018-09-05T04:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Scripts.CV_NB@6c3708b3]" name="screenShot" is-config="true" duration-ms="0" started-at="2018-09-05T04:36:35Z" finished-at="2018-09-05T04:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=CV_NB.test(int)[pri:0, instance:Scripts.CV_NB@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- Scripts.CV_NB -->
+    </test> <!-- RenewalPaymentPortal -->
+  </suite> <!-- Suite -->
+</testng-results>

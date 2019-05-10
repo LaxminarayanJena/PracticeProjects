@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestingAllure" duration-ms="7578" started-at="2019-05-10T07:55:51Z" finished-at="2019-05-10T07:55:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="7578" started-at="2019-05-10T07:55:51Z" finished-at="2019-05-10T07:55:58Z">
+      <class name="TestingAllure">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestingAllure@28feb3fa]" name="setup" is-config="true" duration-ms="3239" started-at="2019-05-10T07:55:51Z" finished-at="2019-05-10T07:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestingAllure@28feb3fa]" name="test1" duration-ms="3534" started-at="2019-05-10T07:55:54Z" finished-at="2019-05-10T07:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="fnl()[pri:0, instance:TestingAllure@28feb3fa]" name="fnl" is-config="true" duration-ms="777" started-at="2019-05-10T07:55:58Z" finished-at="2019-05-10T07:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnl -->
+      </class> <!-- TestingAllure -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestingAllure -->
+</testng-results>
