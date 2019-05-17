@@ -1,0 +1,9 @@
+LogUtils.java, ERROR, WebUIDriver{  }|Unable to find the elementAccount_Search.eltAccount
+LogUtils.java, ERROR, WebUIDriver{  }|Error: Failed to click on the element |Account_Search.eltAccount| |java.lang.NullPointerException
+LogUtils.java, ERROR, Account_SearchDriver|Error: Failed in executing component |Account_Search| |Error: Failed to click on the element |Account_Search.eltAccount| |java.lang.NullPointerException
+LogUtils.java, ERROR, WebUIDriver{  }|Unable to find the elementUS_1208_MaintainDocuments.eltActions
+LogUtils.java, ERROR, WebUIDriver{  }|Error: Failed to click on the element |US_1208_MaintainDocuments.eltActions| |java.lang.NullPointerException
+LogUtils.java, ERROR, US_1208Driver|Error: Failed in executing component |US_1208_MaintainDocuments| |Error: Failed to click on the element |US_1208_MaintainDocuments.eltActions| |java.lang.NullPointerException
+LogUtils.java, ERROR, WebUIDriver{  }|Unable to find the elementlogOutBillingCenter.eltlogouticon
+LogUtils.java, ERROR, WebUIDriver{  }|Error: Failed to click on the element |logOutBillingCenter.eltlogouticon| |java.lang.NullPointerException
+LogUtils.java, ERROR, loginDriver|Error: Failed in executing component |logOutBillingCenter| |Error: Failed to click on the element |logOutBillingCenter.eltlogouticon| |java.lang.NullPointerException
