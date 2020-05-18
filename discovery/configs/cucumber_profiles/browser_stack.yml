@@ -1,0 +1,8 @@
+# Profile to run tests from the new grid. This gets used by the CI.
+
+:test_platform:
+  :platform: "browser_stack"
+
+:misc:
+  :full_screenshots: true
+  :restart_on_failure: false

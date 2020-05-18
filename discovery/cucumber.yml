@@ -1,0 +1,24 @@
+default: --color --format pretty --format json --out 'output/cucumber.json' --tags 'not @wip' --require features/
+
+  <% dry_run = "--no-source --dry-run --require features/step_definitions " %>
+dry_run: <%= dry_run %> --format progress --strict
+
+unused: <%= dry_run %> -f Support::Formatters::Unused -r support/formatters/unused.rb
+
+require_android: "--require legacy_android"
+
+require_legacy_ios: "--require legacy_ios"
+
+require_native: "--require native"
+
+require_legacy_fire_tv: "--require legacy_fire_tv"
+
+require_eurosports_black_android: "--require eurosports_black/eurosports_black_android"
+
+require_eurosports_black_ios: "--require eurosports_black/eurosports_black_ios"
+
+require_atve_android: "--require atve/atve_android"
+
+require_atve_ios: "--require atve/atve_iOS"
+
+require_atve_fire_tv: "--require atve/atve_fire_tv"

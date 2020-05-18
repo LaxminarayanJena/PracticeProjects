@@ -1,0 +1,101 @@
+require:
+- ./rubocop/cops/custom/sleep_cop.rb
+
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.5.1
+  Exclude:
+  - '**/vendor/**/*'
+  - '**/bin/**/*'
+  - 'support/browsermob/example/network_capture.rb'
+  - 'support/browsermob/*.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+  # large namespace blocks are acceptable
+  - Rakefile
+  - tasks/*.rake
+  # large rspec blocks are unavoidable
+  - spec/**/*_spec.rb
+
+Style/GlobalVars:
+  Exclude:
+  - screens/**/base_screen.rb
+  - support/hooks.rb
+  AllowedVariables:
+  - $driver
+
+Lint/UselessAssignment:
+  Exclude:
+  - support/eventually/eventually.rb
+
+Metrics/LineLength:
+  Max: 140
+  Exclude:
+    - Rakefile
+    - 'support/app_center.rb'
+    - 'support/browser_stack.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - support/test_platform/browser_stack.rb
+    - support/test_platform/grid.rb
+  Max: 20
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+  - support/paths.rb
+  - screens/native_screens/affiliate_login_screen.rb
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# To match Spinach
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+# TODO: get down to 15
+Metrics/AbcSize:
+  Max: 22
+
+Metrics/PerceivedComplexity:
+  Max: 7
+
+Metrics/ClassLength:
+  Exclude:
+    - support/test_platform/local.rb
+
+# See https://github.com/bbatsov/rubocop/issues/408
+TrivialAccessors:
+  Enabled: true
+  ExactNameMatch: true
+
+# there are a ton of violations, and its a dumb cop anyway
+Style/SignalException:
+  Enabled: false
+
+# this is broken, and kind of dumb anyway
+Naming/VariableNumber:
+  Enabled: false
+
+# we use this a lot to keep line lengths low
+Style/SymbolProc:
+  Enabled: false
+
+# TODO: enable these
+
+Style/Alias:
+  Enabled: false
+
+# Added with 0.48.1. Evaluate them during the next fixathon
+
+Security/MarshalLoad:
+  Enabled: false
+Security/YAMLLoad:
+  Enabled: false
+Style/MultilineIfModifier:
+  Enabled: false

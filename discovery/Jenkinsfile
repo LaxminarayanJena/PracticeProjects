@@ -1,0 +1,62 @@
+#!/usr/local/bin/groovy
+@Library('pipeline-library')_
+
+pipeline {
+    agent {
+        label "web"
+    }
+    stages {
+        stage('Setup') {
+            steps {
+               script { rubocop.installGems() }
+            }
+        }
+        stage('Rubocop') {
+            steps {
+                script { gitDiff.show() }
+//                sh 'git diff master..$GIT_COMMIT'
+                script { rubocop.execute() }
+//                sh 'bundle exec git diff --name-only master..$GIT_COMMIT | xargs bundle exec rubocop'
+            }
+        }
+        stage('Browser Stack Builds') {
+            steps {
+                configFileProvider([configFile(fileId: 'aa363204-5382-45dd-ab02-5b5d69b9e9e3', targetLocation: '.env', variable: 'CUCUMBER_CONFIGS')]) {
+                    sh "cat .env"
+                }
+                browserstack(credentialsId: 'dc6b41d7-7b2b-4a4c-aeff-af080c393f3a', localConfig: [localOptions: '', localPath: '']) {
+                    script { rubocop.installGems() }
+                    sh """
+                        printenv
+                        gem list
+                        bundle exec rake tasks:clean_log_directories
+                        bundle exec rake tasks:get_affiliates
+                        bundle exec rake pr_run_decider
+                        bundle exec rake browser_stack:save_device_logs
+                        bundle exec rake browser_stack:save_network_logs
+                    """
+                    archiveArtifacts 'logs/cucumber/**/*.json'
+                    sh 'ls -l'
+                }
+
+            }
+        }
+    }
+    post {
+        always {
+            sh """
+                bundle exec rake tasks:generate_report
+            """
+            publishHTML([
+                    allowMissing: true,
+                    alwaysLinkToLastBuild: false,
+                    keepAll: false,
+                    reportDir: 'reports/',
+                    reportFiles: 'my_test_report.html',
+                    reportName: 'PR Test Report',
+                    reportTitles: 'PR Test Report'
+            ])
+            archiveArtifacts 'reports/*'
+        }
+    }
+}

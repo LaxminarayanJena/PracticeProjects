@@ -1,0 +1,245 @@
+:DSC:
+  :name: "DISCOVERY GO"
+  :first_list_show: "16 Years of Motor Madness"
+  :show_search:
+    :show_name: "30 Sharks of Shark Week"
+    :show_name_season_episode: "Alaska the last frontier"
+    :unlocked_season: "American Guns"
+    :exit_app_message: "Are you sure that you want to leave Discovery GO?"
+    :invalidShowName: "invalidShowName"
+    :locked_show: "Naked and Afraid XL"
+    :search_string: "catch"
+    :show_desc: "To celebrate 30 years of Shark Week supremacy, we’re counting down the most grueling, most ghastly, and most infamous sharks in Shark Week history."
+    :episode_1: "5b4a53ec6b66d104f35005b3"
+  :watch_live: "55c51d636b66d1c17a1ffb9e"
+  :unlocked_episode: "5ca10331d1b3ee5361260c7e"
+  :shortform_unlocked_episode: "5c6ac4526b66d145a86ceb7c"
+  :locked_episode: "5a87061a6b66d103ef3b2595"
+  :unlocked_video: "into the blue hole"
+  :red_key_content: "5e2a1fcaf5b0ee0a232590e5"
+  :ad_video: "Guardians of the Glades"
+  :locked_video: "Street Outlaws"
+  :show_hero_by_letter_b: "Backyard Oil"
+  :show_with_seasons:
+    :show_name: "Gold Rush"
+    :deeplink_id: "556f38e06b66d1227a5a4a8b"
+    :season_1: "5710128b6b66d1c63506f005"
+    :season_1_episode_1: "57c9e5de6b66d19860e72fc4"
+    :season_3: "55790e7e6b66d10a53cd2b68"
+    :season_3_episode_1: "57c9cf476b66d19860e72f98"
+  :about:
+    :title: "Discovery GO: About"
+  :help:
+    :screen_title: "DSC | FAQs"
+    :main_title: "Discovery FAQs"
+  :contact_details:
+    :url: "https://www.discovery.com/general/contact-us"
+    :sub_title: "SIGN UP FOR THE DISCOVERY NEWSLETTER"
+  :deeplink_prefix: "discovery"
+  :video_playback:
+    :shortform_video: "American Chopper: Behind the Bike"
+
+:TLC:
+  :name: "TLC GO"
+  :first_list_show: "1000-lb Sisters"
+  :show_search:
+    :show_name: "A Baby Story"
+    :show_name_season_episode: ""
+    :unlocked_season: "DC Cupcakes"
+    :exit_app_message: ""
+    :invalidShowName: "invalidShowName"
+    :locked_show: "A Wedding Story"
+    :search_string: ""
+    :show_desc: ""
+    :episode_1: ""
+    :deeplink_id: "5df8f389f5b0ee76336c6140"
+  :watch_live: "55c51d716b66d1c57a5d08d9"
+  :unlocked_episode: "57d6ed796b66d18d65608ec9"
+  :shortform_unlocked_episode: ""
+  :locked_episode: "5e0f8354f5b0ee0a23258442"
+  :unlocked_video: ""
+  :ad_video: ""
+  :locked_video: ""
+  :red_key_content: "5e3772a2f5b0ee0a23259c35"
+  :show_hero_by_letter_b: ""
+  :show_with_seasons:
+    :show_name: "7 Little Johnstons"
+    :deeplink_id: "55b7e9de6b66d11e21b67fe8"
+    :season_1: "5614292a6b66d11b5672e107"
+    :season_1_episode_1: "57aa12906b66d14b2ff8af0b"
+    :season_3: "590a1b716b66d1822824eaef"
+    :season_3_episode_1: "590a1b716b66d1822824eaf0"
+  :about:
+    :title: "TLC GO: About"
+  :help:
+    :screen_title: ""
+    :main_title: ""
+  :contact_details:
+    :url: ""
+    :sub_title: ""
+  :deeplink_prefix: "tlc"
+  :video_playback:
+     :shortform_video: ""
+
+:AHC:
+  :name: "AHC GO"
+  :first_list_show: "12 Strong"
+  :show_search:
+    :show_name: "War Stories"
+    :deeplink_id: 592baad26b66d1fc1e2931df
+    :episode_1: "592c231c6b66d1fc1e2931ed"
+  :watch_live: "55cb86eb6b66d1dd58373cf8"
+  :unlocked_episode: "5b0588ca6b66d153ea57c4cf"
+  :locked_episode: "57aba9006b66d14b2ff8bd8f"
+  :unlocked_video: "War Stories"
+  :ad_video: "American Heroes"
+  :locked_video: "Against the Odds"
+  :show_hero_by_letter_b: "Blood and Fury: America's Civil War"
+  :show_with_seasons:
+    :show_name: "Forbidden History"
+    :deeplink_id: "57275c7e6b66d1e14278402f"
+    :season_3: "57275c7f6b66d1e142784030"
+    :season_3_episode_1: "57275c7f6b66d1e142784031"
+    :season_4: "59550c5c6b66d1307d25d148"
+    :season_4_episode_1: "59550c5c6b66d1307d25d149"
+  :about:
+    :title: "AHC GO: About"
+  :help:
+    :screen_title: ""
+    :main_title: ""
+  :contact_details:
+    :url: ""
+    :sub_title: ""
+  :deeplink_prefix: "ahc"
+
+
+
+:FOOD:
+  :name: "Food Network"
+  :show_tab:
+    :show_name: "5 Ingredient Fix"
+    :show_descr: "Host Claire Robinson proves that you can make delicious dishes with only 5 ingredients or less."
+  :first_list_show: "30 Minute Meals with Rachael Ray"
+  :show_search:
+    :show_name: "Baked"
+    :invalidShowName: "invalid Name"
+    :episode_1: "5b2914ca6b66d153ea580520"
+  :watch_live: "5b0457e56b66d153ea57c419"
+  :unlocked_episode: "5c76cedd6b66d145a86cfcc6"
+  :locked_episode: "5cc9e140d1b3ee2e850b3e73"
+  :unlocked_video: "5 Ingredient Fix"
+  :locked_video: "All-Star Academy"
+  :show_hero_by_letter_b: "Bake You Rich"
+  :show_with_seasons:
+    :show_name: "Chopped"
+    :deeplink_id: "5b17f8a36b66d153ea57d364"
+    :season_1: "5b2914b16b66d153ea58050f"
+    :season_1_episode_1: "5b2914ca6b66d153ea580520"
+    :season_3: "5b27f6676b66d153ea58013c"
+    :season_3_episode_1: "5b27f7796b66d153ea58016a"
+  :about:
+    :title: "Watch Food Network: About"
+  :help:
+    :screen_title: ""
+    :main_title: ""
+  :contact_details:
+    :url: ""
+    :sub_title: ""
+  :deeplink_prefix: "food"
+
+
+:IDS:
+  :first_list_show: "582b2f0b6b66d16d67d593bc"     # 1980'S: THE DEADLIEST DECADE - π582b2f0b6b66d16d67d593bc
+  :show_search:
+    :show_name: "57503c3b6b66d15971c355d1"         # American Monster - 57503c3b6b66d15971c355d1
+    :episode_1: "57503c3b6b66d15971c355d1"
+  :watch_live: "55c51d996b66d1dd7abfbc55"
+  :unlocked_episode: "599c72aa6b66d1728e0de154"
+  # :unlocked_episode: "5c6ac4526b66d145a86ceb7c"
+  :unlocked_season:
+  :shortform_unlocked_episode: "5c6ac4526b66d145a86ceb7c"
+  :locked_episode: "59f20f516b66d15d3b0ada28"
+  :unlocked_video: "59d3db9f6b66d15ceb603d56"      # Hell's Basement - 59d3db9f6b66d15ceb603d56
+  :unlocked_show: 58b88a976b66d13009d3d495         # Evil, I -  58b88a976b66d13009d3d495
+  :locked_video: "57503c3b6b66d15971c355d3"        # Home Video Hit- 57503c3b6b66d15971c355d3
+  :locked_show: "57503c3b6b66d15971c355d1"         # American Monster - 57503c3b6b66d15971c355d1
+  :show_hero_by_letter_b:
+  :show_with_seasons:
+    :show_name:
+    :deeplink_id:
+    :season_1:
+    :season_1_episode_1:
+    :season_3:
+    :season_3_episode_1:
+  :about:
+    :title:
+  :help:
+    :screen_title:
+    :main_title:
+  :contact_details:
+    :url:
+    :sub_title:
+  :deeplink_prefix: "ids"
+  :episode_name: "homicide"
+
+
+
+:OWN:
+  :first_list_show:
+  :show_search:
+    :show_name: "2 Fat 2 Fly"
+    :show_desc: "Meet Corey and Ramone, best friends and creative geniuses who have a knuckle-headed business approach for their small-town food truck business, 2 Fat 2 Fly. Ride along as these Wingmen either self-destruct or fly straight to the top of the food chain."
+    :episode_1:
+  :watch_live: "5a8c4d646b66d103ef3b26ec"
+  :unlocked_video:
+  :unlocked_show:
+  :locked_video:
+  :locked_show:
+  :show_hero_by_letter_b:
+  :show_with_seasons:
+    :show_name:
+    :deeplink_id:
+    :season_1:
+    :season_1_episode_1:
+    :season_3:
+    :season_3_episode_1:
+  :about:
+    :title:
+  :help:
+    :screen_title:
+    :main_title:
+  :contact_details:
+    :url:
+    :sub_title:
+  :deeplink_prefix: "own"
+
+:Atv:
+  :name: "TLC GO"
+  :first_list_show: "Till Death Do Us Part"
+  :show_search:
+    :show_name: "Till Death Do Us Part"
+    :show_name_season_episode: ""
+    :unlocked_season: ""
+    :exit_app_message: ""
+    :invalidShowName: ""
+    :locked_show: ""
+    :search_string: "Paul & Karine: Our Journey So Far"
+    :show_desc: ""
+    :episode_1: ""
+  :watch_live: ""
+  :show_hero_by_letter_b: ""
+  :show_with_seasons:
+    :show_name: "Long Island Medium"
+    :season_1: ""
+    :season_1_episode_1: ""
+  :about:
+    :title: ""
+  :help:
+    :screen_title: ""
+    :main_title: ""
+  :contact_details:
+    :url: ""
+    :sub_title: ""
+  :deeplink_prefix: ""
+  :video_playback:
+     :shortform_video: ""

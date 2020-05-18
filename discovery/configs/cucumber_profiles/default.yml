@@ -1,0 +1,28 @@
+# This is the default profile. It has settings that are useful for development, contains documentation, and gets
+# merged into all other profiles.
+
+# configurations for the test platorm
+:test_platform:
+  # name of the device platform. options are Android, iOS etc.
+  :platform_name: ${ENV["platformName"]}
+  # platform on which the browser is running. options are local, browser_stack, grid, and docker.
+  :platform: "local"
+  # IP and port for the selenium hub if running on the grid
+  :grid_options:
+    :ip: "172.21.153.4"
+    :port: "4444"
+
+:misc:
+  # quits cucumber after the first failure
+  :fast_feedback: false
+  # uses chromedriver-screenshot gem to take full-page screenshots. this takes forever and constantly
+  # draws focus to the browser so it's annoying to use in development.
+  :full_screenshots: false
+  # leaves the browser open at the end of the test run. useful for debugging.
+  :leave_open: false
+  # restart browser windows after scenario failures
+  :restart_on_failure: false
+  # fail if console logs contain unreturned promises
+  :fail_on_unreturned_promises: false
+  # use headless chrome
+  :headless: false

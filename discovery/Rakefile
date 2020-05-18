@@ -1,0 +1,110 @@
+# frozen_string_literal: true
+
+require "require_all"
+require "set"
+require "rubygems"
+require "byebug"
+require "cucumber"
+require "cucumber/rake/task"
+require "rubocop/rake_task"
+require "report_builder"
+require "google_drive"
+require "json"
+require "dotenv"
+require "net/http"
+require "uri"
+require "json"
+require "tty-prompt"
+require_relative "tasks/cuke/task_runner"
+require_rel "support/paths"
+require_rel "support/browser_stack"
+
+Dir.glob("tasks/*.rake").each { |r| load r }
+
+# require_rel "tasks/cuke/run/"
+# require_relative "tasks/cuke/task_runner"
+
+Cucumber::Rake::Task.new(:features) do |t|
+  t.profile = "default"
+  t.profile = "require_features"
+  t.cucumber_opts = "legacy_android/features"
+end
+
+def format_network_code(app_name)
+  # check if app is Android or iOS
+  platform = app_name.split(".").last
+  # parse the app name and upcase it
+  platform == "apk" ? app_name.split("-")[1].upcase : app_name.split("_")[0].upcase
+end
+
+Cucumber::Rake::Task.new(:tests) do |t|
+  t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
+end
+
+file_pattern = [
+  "../screens/**/*.rb",
+  "**/*.rb",
+  "**/*.rake",
+  "**/Rakefile",
+  "**/Gemfile"
+]
+
+desc "Run RuboCop on the cucumber directory"
+RuboCop::RakeTask.new(:rubocop) do |task|
+  Kernel.puts "[rake] Running RuboCop on the cucumber directory..."
+  task.patterns = file_pattern
+  task.options = [
+    "-c", ".rubocop.yml"
+  ]
+  # Abort rake on failure
+  task.fail_on_error = true
+end
+
+task :pr_run_decider do
+  desc "Decides which pr builds to kick off based off files changed"
+  Dotenv.load
+  system "bundle exec git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTXB --compact-summary -U0 $GIT_COMMIT origin/master"
+  system "bundle exec git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTXB $GIT_COMMIT origin/master > tmp_files_changed.txt"
+  runs = Set[]
+  text = File.open("tmp_files_changed.txt").read
+  text = text.split("\n")
+  run_types = %w[legacy_ios legacy_android legacy_fire_tv native eurosports_black atve]
+  text.each do |line|
+    run_types.each { |x| runs.add x if line.include? x }
+  end
+  runs.each do |run|
+    run = run_formatter(run)
+    Kernel.puts run
+    Rake::Task["browser_stack:check_bs_builds"]
+    Rake::Task["browser_stack:wait_for_browserstack_sessions"].execute
+    ENV["BROWSERSTACK_APP_ID"] = ENV[run[:bs_app_id].upcase.to_s] if run[:bs_app_id]
+    puts ENV["BROWSERSTACK_APP_ID"]
+    puts "bundle exec rake #{run[:run]}[discovery]"
+    system "bundle exec rake #{run[:run]}[discovery]"
+  end
+end
+
+def run_formatter(run)
+  if run.include? "fire_tv"
+    # fire tv tests don't run against browserstack
+    run_value = "legacy:fire_tv"
+    app = nil
+  elsif run.include? "native"
+    run_value = "native:android"
+    app = "NATIVE_ANDROID_APP_ID"
+  elsif run.include? "legacy"
+    app = ENV["#{run.upcase}_APP_ID"]
+    run_value = run.gsub("_", ":")
+  end
+  { run: run_value, bs_app_id: app }
+end
+
+namespace :data_service_events do
+  desc "Events V2 validation"
+  task :run_events_v2 do |_t, _args|
+    exec("REPORT_PATH=reports/events_rspec_results bundle exec rspec --format RspecHtmlReporter events/spec/test_spec.rb")
+  end
+end
+
+task default: :features
+task generate: :generate_report

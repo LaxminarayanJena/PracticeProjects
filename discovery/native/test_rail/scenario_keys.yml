@@ -1,0 +1,107 @@
+Authenticated user has shows recommended:
+  case_id: "1287"
+Show screen episode details:
+  case_id: "1308"
+Verify affiliate logo in header:
+  case_id: "1463"
+Authenticated user can see livestream:
+  case_id: "1314"
+Get Help / FAQ from settings:
+  case_id: "1259"
+Show key art on show details screen for valid user:
+  case_id: "985"
+Unauthenticated User can scroll through unlocked episodes:
+  case_id:
+Home Hero - Hero show content:
+  case_id: "1370"
+Home screen - Live stream module play:
+  case_id: "1482"
+Get Nielsen Details from settings:
+  case_id: "1257"
+Show title on show details screen for valid user:
+  case_id: "984"
+Check show info:
+  case_id: "10349"
+Search page must contain All Shows and For you tab:
+  case_id: "1223"
+Settings screen authenticated user:
+  case_id: "1250"
+Up Next video should be tappable from locked episode show video screen:
+  case_id: "1710"
+Unauthenticated User can view unlocked episode info:
+  case_id:
+  - "10349"
+Authenticated user can watch live tv:
+  case_id: "1317"
+Display No results when search show is not present:
+  case_id: "1246"
+Show title on show details screen:
+  case_id: "971"
+Home Hero - Play:
+  case_id: "8808"
+Read the Online Closed Captioning:
+  case_id: "1260"
+show screen episode description:
+  case_id: "1007"
+Home Hero - Up-next:
+  case_id: "1381"
+Home Hero - play:
+  case_id: "1381"
+Affiliate login:
+  case_id:
+  - "3012"
+  - "885"
+Read the Privacy Policy:
+  case_id: "1265"
+Show screen play episode:
+  case_id: "10350"
+Authenticated user can watch recent episodes:
+  case_id: "1491"
+Unauthenticated user can't watch live:
+  case_id:
+  - "1316"
+  - "1318"
+For you tab displays show cards:
+  case_id: "1228"
+Hero show key art on show details screen for selected show:
+  case_id: "970"
+Authenticated user recent episodes:
+  case_id: "1491"
+Search a show:
+  case_id:
+  - "1235"
+  - "1232"
+  - "1239"
+Header text for signin to verify TV provider:
+  case_id: "1750"
+Show screen anonymous user can view show description:
+  case_id: "969"
+Home Hero - Show title:
+  case_id: "1373"
+Login from home screen:
+  case_id:
+  - "3012"
+  - "886"
+Read the Terms and Conditions:
+  case_id: "1266"
+Authenticated user can play hero episode:
+  case_id:
+AuthZ login:
+  case_id:
+  - "1754"
+Get Version Details from settings:
+  case_id: "1269"
+Up Next video should be tappable from unlocked episode show video screen:
+  case_id: "1797"
+Authenticated user can play locked episode:
+  case_id:
+Authenticated user can deeplink into livestream:
+  case_id:
+Information about Discovery is available from settings:
+  case_id: "1258"
+Show screen authenticated user can view show description:
+  case_id: "983"
+Unauthenticated User can watch unlocked episodes:
+  case_id:
+  - "1541"
+  - "1540"
